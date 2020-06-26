@@ -44,7 +44,7 @@ export default function Launch(props) {
                 <span className="text-dark">Mission:</span>{' '}{ loading || mission_name }
             </h1>
             <div>
-                <h4 className="mb-3">Launch Details</h4>
+                <h4 className="my-3">Launch Details</h4>
                 {
                     loading ? <div>Loading...</div> :
                     <ul className="list-group">
